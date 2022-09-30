@@ -10,10 +10,10 @@ body{
 
 h1{font-size: 3.5em;}
 h2{font-size: 2.7em;}
-h3{font-size: 23em}
+h3{font-size: 2.3em}
 
 p{font-size: 1.25em;
-padding-left: 30px;}
+padding-left: 15px;}
 
 ul{list-style: none;}
 li{font-size: 1.25em;}
@@ -120,13 +120,16 @@ header a:hover{
 		rgba(0,0,0,0.5),
 		rgba(0,0,0,0.5)
 	)
-	,url("paisaje.jpg");
+	,url("https://scontent.fncj1-1.fna.fbcdn.net/v/t31.18172-8/21687180_393624794376532_7237177382618775587_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=b0jO1VqaiI4AX_mmla1&_nc_ht=scontent.fncj1-1.fna&oh=00_AT-T8hAHx65Keijj130YpxKVrLAg7b51MpYx9MbAgczPRg&oe=635BB790");
 	background-repeat:  no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 
-
+.texto .id{
+	color: royalblue;
+	text-decoration: underline;
+}
 
 
 
@@ -188,12 +191,26 @@ footer{
 		width: 50%;
 		text-align: initial;
 		padding: 0px 30px;
+		
 		max-width: 500px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		
 		
+	}
+	.parasobrenosotros h2{
+		padding-left: 30px;
+		text-align: center;
+	}
+	p{
+		padding: 0px 30px;
+		text-align: center;
+	}
+
+	#sectioncarrusel{
+		height: 15%;
+
 	}
 	
 
