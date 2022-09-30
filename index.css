@@ -64,7 +64,7 @@ button:hover{
 }
 
 .container{
-	max-width: 1400px;
+	max-width: 1000px;
 	margin: auto;
 }
 header{
@@ -84,6 +84,10 @@ header .container{
 	flex-direction: column;
 	align-items: center;
 
+}
+
+#sectioncarrusel button{
+	background-color: transparent;
 }
 
 header nav{
@@ -212,6 +216,30 @@ footer{
 		height: 15%;
 
 	}
-	
+.contaform{
+	display: grid;
+	grid-template-columns: 1fr 2fr;}
+
+.left{
+	display: flex;
+	place-items: center;
+	text-align: center;
+	flex-direction: column;
+	padding: 0px 30px;
+
+}
+.right{
+	display: flex;
+	place-items: center;
+	text-align: center;
+	flex-direction: column;
+	padding: 0px 30px;
+	padding-top: 25px;
+}
+input.Email{
+	margin-left: 10px;
+
+}
+
 
 }
